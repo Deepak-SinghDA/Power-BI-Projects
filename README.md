@@ -19,11 +19,11 @@
 
 ## Sales Insight Data Analyst Project
 In this Power BI Project I did data cleaning and built a Power full Dashboard that can help us generate sales Insights on Hardware business.
-•	Data Analysis Using SQL
-•	Show all customer records
-o	SELECT * FROM customers;
-•	Show total number of customers
-o	SELECT count(*) FROM customers;
++	Data Analysis Using SQL
+_	Show all customer records
+  _	SELECT * FROM customers;
+_	Show total number of customers
+  _	SELECT count(*) FROM customers;
 •	Show transactions for Chennai market (market code for chennai is Mark001
 o	SELECT * FROM transactions where market_code='Mark001';
 •	Show distrinct product codes that were sold in chennai
