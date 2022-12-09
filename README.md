@@ -21,13 +21,13 @@
 In this Power BI Project I did data cleaning and built a Power full Dashboard that can help us generate sales Insights on Hardware business.
 +	Data Analysis Using SQL
 -	Show all customer records
-  - SELECT * FROM customers;
+ - SELECT * FROM customers;
 -	Show total number of customers
-  -	SELECT count(*) FROM customers;
+ -	SELECT count(*) FROM customers;
 -	Show transactions for Chennai market (market code for chennai is Mark001
-  -	SELECT * FROM transactions where market_code='Mark001';
+ -	SELECT * FROM transactions where market_code='Mark001';
 -	Show distrinct product codes that were sold in chennai
-  -	SELECT distinct product_code FROM transactions where market_code='Mark001';
+ -	SELECT distinct product_code FROM transactions where market_code='Mark001';
 -	Show transactions where currency is US dollars
   -	SELECT * from transactions where currency="USD"
 -	Show transactions in 2020 join by date table
